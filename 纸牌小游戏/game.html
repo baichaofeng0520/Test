@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/gamecss.css" rel="stylesheet" type="text/css"/>
+		<script src="js/game.js">			
+		</script>				
+	</head>
+	<body>	
+		<div id="dvd">
+			<input type="button" value="开始游戏" id="start" />&nbsp;
+		    <input type="text" id="txt" />&nbsp;
+	        <input type="button" value="结束游戏" id="stop" onclick="stop()"/>
+		</div><br /><br /><br /><br /><br />	
+		<hr id="hr1" size="7" color="#FF7F50"><br />
+		<h1 id="hh">纸牌记忆游戏</h1>
+		<div id="drd">
+		    <div class="dd"><img id="i1" src="img/1.jpg" onclick="change(1)"/></div>
+		    <div class="dd"><img id="i2" src="img/2.jpg" onclick="change(2)"/></div>
+		    <div class="dd"><img id="i3" src="img/3.jpg" onclick="change(3)"/></div>
+		    <div class="dd"><img id="i4" src="img/4.jpg" onclick="change(4)"/></div>
+		    <div class="dd"><img id="i5" src="img/5.jpg" onclick="change(5)"/></div>
+		    <div class="dd"><img id="i6" src="img/6.jpg" onclick="change(6)"/></div>
+		    <div class="dd"><img id="i7" src="img/7.jpg" onclick="change(7)"/></div>
+		    <div class="dd"><img id="i8" src="img/8.jpg" onclick="change(8)"/></div>
+		</div>
+		<div id="dad">
+			游戏说明：点击开始后，请迅速记住对应牌面，然后点击翻开，需按照牌面由小到大的顺序依次翻开，全部翻开后点击结束游戏，查看用时，用时最短视为优秀。
+		</div>
+	</body>

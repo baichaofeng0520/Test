@@ -1,0 +1,59 @@
+body{
+	background-color: bisque;
+}
+	.dd {		
+		float: left;
+		padding: 10px;
+		border: 2px solid;
+		transition: 3s;	
+		border-image:url(../img/border.png) 20 20 stretch;	
+	}
+	.dd:hover{
+			transform:rotate(180deg);
+		}	
+	#drd {
+		border: 20px black solid;
+		position: absolute;
+		left: 50%;
+		top: 58%;
+		transform: translate(-50%,-50%);
+		width: 1035px;
+		padding: 10px 30px;
+		border-radius:130px;
+		background-image: url(../img/0004.jpg);
+		border-image:url(../img/border.png) 20 20 stretch;
+	}
+	#dvd{
+		border: 20px #FFEBCD solid;
+		position: absolute;
+		left: 50%;
+		top: 8%;
+		transform: translate(-50%,-50%);		
+		width: 500px;
+		padding: 10px 30px;
+		border-radius:50px;
+		box-shadow: 10px 10px 5px darkgrey;
+		background-image: url(../img/0004.jpg);
+	}
+	#txt{
+		width: 338px;
+		font-family: "黑体";
+		font-size: x-large;
+		height:20px;       
+        line-height: 20px;
+        text-align: center;      
+	}
+	h1{
+		text-align: center;
+	}
+	#dad{
+		border: 20px deepskyblue solid;
+		box-shadow: 10px 10px 5px #888888;
+		width: 300px;
+		padding: 10px 30px;
+	    position: absolute;
+		left: 50%;
+		top: 95%;
+		transform: translate(-50%,-50%);
+	}
+
